@@ -3,6 +3,7 @@ package com.dio_class.devweek.Entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "regiao")
 public class RegiaoBrasil {
 
     @Id
@@ -10,15 +11,9 @@ public class RegiaoBrasil {
     Long id;
 
     @Column
-    @OneToMany
-    Integer regiao;
+    String regiao;
 
     @Column
-    Long totalExames;
-
-    public void purchaseParkingPass() {
-
-    }
-
+    Integer totalExames;
 
 }

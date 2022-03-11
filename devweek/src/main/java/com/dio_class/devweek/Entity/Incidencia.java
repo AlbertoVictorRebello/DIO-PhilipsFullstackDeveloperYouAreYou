@@ -1,36 +1,25 @@
 package com.dio_class.devweek.Entity;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
+@Table(name = "incidencia_exame")
 public class Incidencia {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     Long id;
 
-    @Column
+    @Column(name = "Regiao_id")
     Integer regiaoId;
 
-    @Column
+    @Column(name = "Mes")
     Integer mes;
 
-    @Column
+    @Column(name = "Faixa_id")
     Integer faixaId;
 
-    @Column
-    Long quantidadeExames;
-
-
-    public <T> validadeExames() {
-
-    }
-
-    public <S> outputAsLabel() {
-
-    }
-
+    @Column(name = "Qnt_exames")
+    Integer quantidadeExames;
 
 }
