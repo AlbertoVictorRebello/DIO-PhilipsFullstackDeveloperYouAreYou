@@ -10,10 +10,21 @@ public class RegiaoBrasil {
     @GeneratedValue(strategy= GenerationType.AUTO)
     Long id;
 
-    @Column
+    @Column(name = "regiao")
     String regiao;
 
-    @Column
+    @Column(name = "total_exames")
     Integer totalExames;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getRegiao() {
+        return regiao;
+    }
+
+    public Integer getTotalExames() {
+        return totalExames;
+    }
 }

@@ -18,4 +18,19 @@ public class FaixaEtaria {
     @Column(name = "Descricao")
     String descricao;
 
+    public Long getId() {
+        return id;
+    }
+
+    public Integer getFaixaInicial() {
+        return faixaInicial;
+    }
+
+    public Integer getFaixaFinal() {
+        return faixaFinal;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
 }

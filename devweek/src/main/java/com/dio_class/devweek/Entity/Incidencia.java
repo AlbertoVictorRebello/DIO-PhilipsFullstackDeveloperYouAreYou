@@ -22,4 +22,23 @@ public class Incidencia {
     @Column(name = "Qnt_exames")
     Integer quantidadeExames;
 
+    public Long getId() {
+        return id;
+    }
+
+    public Integer getRegiaoId() {
+        return regiaoId;
+    }
+
+    public Integer getMes() {
+        return mes;
+    }
+
+    public Integer getFaixaId() {
+        return faixaId;
+    }
+
+    public Integer getQuantidadeExames() {
+        return quantidadeExames;
+    }
 }
