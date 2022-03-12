@@ -5,7 +5,7 @@ import { ExamesRoutingModule } from './exames-routing.module';
 import { ExamesComponent } from './exames/exames.component';
 import {MatSortModule} from '@angular/material/sort';
 import {MatCardModule} from '@angular/material/card';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,8 @@ import {MatCardModule} from '@angular/material/card';
     CommonModule,
     ExamesRoutingModule,
     MatSortModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ]
 })
 export class ExamesModule { }
