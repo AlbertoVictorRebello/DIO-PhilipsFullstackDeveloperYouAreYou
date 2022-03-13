@@ -16,6 +16,13 @@ public class RegiaoBrasil {
     @Column(name = "total_exames")
     Integer totalExames;
 
+    public RegiaoBrasil() {
+    }
+
+    public RegiaoBrasil(String regiao, Integer totalExames) {
+        this.regiao = regiao;
+        this.totalExames = totalExames;
+    }
     public Long getId() {
         return id;
     }

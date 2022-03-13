@@ -38,7 +38,7 @@ public class ControllerRegiao {
         return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
 
-    @PostMapping("/regiao/novo")
+    @PostMapping("/regiao/nova")
     public RegiaoBrasil postRegiao(@RequestBody RegiaoBrasil novaRegiao) {
         return repository.save(novaRegiao);
     }
