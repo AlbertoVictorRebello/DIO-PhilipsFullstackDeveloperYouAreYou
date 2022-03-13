@@ -1,0 +1,18 @@
+![philips-logo](./.img/philips-footer-logo.svg) ![dio-logo](./.img/dio-make-the-change.jpg) ![bootcamp-logo](./.img/PhilipsDioBootCampLogo.jpg)
+
+# Developing Your Own Personal Web Page
+## Presentation
+This project is part of the bootcamp ["Philips Fullstack Developer | You Are You"](https://web.dio.me/home). The main objective is apply the concepts of HTML 5, CSS and Bootstrap building a personal website.
+
+## Tecnologies And Tools
+HTML - CSS3 - BOOTSTRAP - VS Code
+## Stages
+To acompish this stage one should develop the practices proposed. They are growth in complexity as far new concepts are learned along the classes. They are briefly described below for reference:
+
+|Stage    |Description                                                              |
+|------------|-------------------------------------------------------------------------|
+|Stage 1|Index page: write the code of a basic page called index.html having at least the following elements: doctype, html, head, meta defining charset = UTF-8 , title and body tags. Enjoy the job! Publish your own name writing it on the the body element.|
+|Stage 2|What it means? Semantics is a relevant function of the section, header, article, aside, footer and h1 to h6 tags. In this part they will be used to give som structure to the index page.|
+|Stage 3|Get an anchor to navigate: in deed the most famous feature web pages have is their linking behavior, the capacity to jump into another content by a simple click. Let's use it too!|
+
+|Stage #|Formalizing: It seems that the task is becaming more formal. Let's so to include a form element in the index page.|
