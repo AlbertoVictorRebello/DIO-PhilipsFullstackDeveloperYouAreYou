@@ -4,18 +4,18 @@
       <table matSort (matSortChange)="ocorrenciaExames">
         <tr>
           <th mat-sort-header="id">ID</th>
-          <th mat-sort-header="regiao_id">ID Região</th>
+          <th mat-sort-header="regiaoId">ID Região</th>
           <th mat-sort-header="mes">Mês</th>
-          <th mat-sort-header="faixa_id">ID Faixa Etaria</th>
-          <th mat-sort-header="qnt_exames">N° de exames</th>
+          <th mat-sort-header="faixaId">ID Faixa Etaria</th>
+          <th mat-sort-header="quantidadeExames">N° de exames</th>
         </tr>
 
         <tr *ngFor="let element of ocorrenciaExames">
           <td>{{element.id}}</td>
-          <td>{{element.regiao_id}}</td>
+          <td>{{element.regiaoId}}</td>
           <td>{{element.mes}}</td>
-          <td>{{element.faixa_id}}</td>
-          <td>{{element.qnt_exames}}</td>
+          <td>{{element.faixaId}}</td>
+          <td>{{element.quantidadeExames}}</td>
         </tr>
       </table>
     </mat-card>
@@ -41,14 +41,14 @@
         <table matSort (matSortChange)="faixasEtarias">
           <tr>
             <th mat-sort-header="id">ID</th>
-            <th mat-sort-header="faixa_i">Faixa inicial</th>
-            <th mat-sort-header="faixa_n">Faixa final</th>
+            <th mat-sort-header="faixaInicial">Faixa inicial</th>
+            <th mat-sort-header="faixaFinal">Faixa final</th>
             <th mat-sort-header="descricao">Descrição</th>
           </tr>
           <tr *ngFor="let element of faixasEtarias">
             <td>{{element.id}}</td>
-            <td>{{element.faixa_i}}</td>
-            <td>{{element.faixa_n}}</td>
+            <td>{{element.faixaInicial}}</td>
+            <td>{{element.faixaFinal}}</td>
             <td>{{element.descricao}}</td>
           </tr>
         </table>
