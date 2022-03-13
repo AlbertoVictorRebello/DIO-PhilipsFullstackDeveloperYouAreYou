@@ -1,25 +1,24 @@
 <div class="margem">
   <mat-card>
     <mat-card-subtitle>Exames de mamografia entre Junho e Julho de 2015</mat-card-subtitle>
+      <table matSort (matSortChange)="ocorrenciaExames">
+        <tr>
+          <th mat-sort-header="id">ID</th>
+          <th mat-sort-header="regiao_id">ID Região</th>
+          <th mat-sort-header="mes">Mês</th>
+          <th mat-sort-header="faixa_id">ID Faixa Etaria</th>
+          <th mat-sort-header="qnt_exames">N° de exames</th>
+        </tr>
 
-    <table matSort (matSortChange)="ocorrenciaExames">
-      <tr>
-        <th mat-sort-header="id">ID</th>
-        <th mat-sort-header="regiao_id">ID Região</th>
-        <th mat-sort-header="mes">Mês</th>
-        <th mat-sort-header="faixa_id">ID Faixa Etaria</th>
-        <th mat-sort-header="qnt_exames">N° de exames</th>
-      </tr>
-
-      <tr *ngFor="let element of ocorrenciaExames">
-        <td>{{element.id}}</td>
-        <td>{{element.regiao_id}}</td>
-        <td>{{element.mes}}</td>
-        <td>{{element.faixa_id}}</td>
-        <td>{{element.qnt_exames}}</td>
-      </tr>
-    </table>
-  </mat-card>
+        <tr *ngFor="let element of ocorrenciaExames">
+          <td>{{element.id}}</td>
+          <td>{{element.regiao_id}}</td>
+          <td>{{element.mes}}</td>
+          <td>{{element.faixa_id}}</td>
+          <td>{{element.qnt_exames}}</td>
+        </tr>
+      </table>
+    </mat-card>
 
     <mat-card>
       <mat-card-subtitle>Relação de Regiões Brasileiras</mat-card-subtitle>

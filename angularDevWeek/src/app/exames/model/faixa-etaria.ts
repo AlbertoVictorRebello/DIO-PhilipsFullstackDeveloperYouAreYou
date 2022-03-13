@@ -1,6 +1,6 @@
 export interface FaixaEtaria {
     id: number,
-    faixa_i: number,
-    faixa_n: number,
+    faixa_i: string,
+    faixa_n: string,
     descricao: string
 }

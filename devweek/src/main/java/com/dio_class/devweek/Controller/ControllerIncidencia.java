@@ -18,7 +18,7 @@ class ControllerIncidencia {
         this.repository = repository;
     }
 
-    @GetMapping("/incidencia")
+    @GetMapping("/ocorrencia")
     public ResponseEntity<List<Incidencia>> getIncidencia() {
         List<Incidencia> listaOcorrencia = repository.findAll();
         if (listaOcorrencia.isEmpty()) {
