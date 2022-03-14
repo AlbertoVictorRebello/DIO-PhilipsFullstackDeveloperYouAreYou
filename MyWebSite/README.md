@@ -19,4 +19,4 @@ To acompish this stage one should develop the practices proposed. They are growt
 |Stage 6|Identity and class? We have it! What could be better than put your personal web page aligned with your style and identity? CSS concepts will help you to reveal your style and design preferences.|
 |Stage 7|Elegance: The content is important however the format is also an important thing. Use all font you need to make your message better understood.|
 |Stage 8|As said, we love lists! More than order the stuffs, lists make the items more atractive helping us to follow their acomplishment. Use the HTML features to give more style to your lists. There are lots of them!|
-|Stage x|Formalizing: It seems that the task is becaming more formal. Let's so to include a form element in the index page.|
+|Stage 9|I nedd my place! Yes, space is critical factor. Each element has to be at the correct positionto play well, as a team. Enjoy the game of HTML!|

@@ -1,6 +1,8 @@
 body {
     background: #f7f7f7;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo {
@@ -18,7 +20,7 @@ body {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: line-through;
     color: #505050;
 }
 
@@ -33,6 +35,7 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 .post {
     background: #fff;
@@ -44,4 +47,18 @@ a {
 .post_image {
     margin: 0;
     margin-bottom: 15px;
+    width: 50%;
+    align-self: center;
+   
+}
+
+.contact_list {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 15px;
+    padding: 0;
+}
+
+.contact_list li a {
+    text-decoration: none;
 }
