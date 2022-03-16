@@ -11,7 +11,7 @@ This repository is part of the bootcamp ["Philips Fullstack Developer | You Are 
 ## Tecnologies And Tools
 GIT - HTML - CSS3 - BOOTSTRAP - FLEXBOX - JAVA SCRIPT - MY SQL - JAVA - ANGULAR - SPRING - POSTMAN - VS Code - INTELLIJ
 ## List of Folders
-The master branch They are briefly described below for reference:
+The master branch has the functional version of the projects. They are segregated in folders briefly described below for reference:
 
 | Folder | Description                                                              |
 | -------- | ------------------------------------------------------------------------ |
