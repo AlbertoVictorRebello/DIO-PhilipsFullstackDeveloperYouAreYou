@@ -6,7 +6,7 @@
 </div>
 
 # Presentation
-This repository is part of the bootcamp ["Philips Fullstack Developer | You Are You"](https://web.dio.me/home). The projects and activities developed along this course will be available here. You are invited to use the codes and improuve them. It will be great if you have comments or suggestions to make them better. 
+This repository is part of the bootcamp ["Philips Fullstack Developer | You Are You"](https://web.dio.me/home). The projects and activities developed along this course will be available here. You are invited to use the codes and improve them. It will be great if you have comments or suggestions to make them better. 
 
 ## Tecnologies And Tools
 GIT - HTML - CSS3 - BOOTSTRAP - FLEXBOX - JAVA SCRIPT - MY SQL - JAVA - ANGULAR - SPRING - POSTMAN - VS Code - INTELLIJ
