@@ -19,3 +19,4 @@ The master branch has the functional version of the projects. They are segregate
 | angularDevWeek | Breast Cancer Projetct: the api is consumed by an http application developed in Angular. |
 | MyWebSite | Personal Web Site Project:  this project applied the concepts presented by the course of HTML and CSS basics.|
 | project-flexbox-dio | Flex Turismo Web Page Project: the concepts of flexbox model to develop the design of a tour agency.|
+| JavaScriptBasics |JS Sintax: in this folder there are the lessons of the Java Script basic sintax. |
