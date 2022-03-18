@@ -1,12 +1,12 @@
 function calculator() {
     let message = "Operations available:\n";
-    message = message + "1 - addition (+).\n";
-    message = message + "2 - Subtraction (-).\n";
-    message = message + "3 - Multiplication (*).\n";
-    message = message + "4 - Division (/).\n";
-    message = message + "5 - Remainder (%).\n";
-    message = message + "6 - Power (**).\n";
-    message = message + "Choose an operation:"
+    message += "1 - addition (+).\n";
+    message += "2 - Subtraction (-).\n";
+    message += "3 - Multiplication (*).\n";
+    message += "4 - Division (/).\n";
+    message += "5 - Remainder (%).\n";
+    message += "6 - Power (**).\n";
+    message += "Choose an operation:"
     const operation = Number(prompt(message));
     
     let first = Number(prompt("Input the first value:"));
