@@ -21,3 +21,4 @@ The master branch has the functional version of the projects. They are segregate
 | project-flexbox-dio | Flex Turismo Web Page Project: the concepts of flexbox model to develop the design of a tour agency.|
 | JavaScriptBasics | JS Syntax: in this folder there are the lessons of the Java Script basic syntax. |
 | javaScriptSyntaxAndOperators | JS Syntax: this lesson proposed some practice focused on the several operators available in Java Script Language. | 
+| javaScriptTypesAndVariables | JS Syntax: this lesson proposed some practice focused on constants, variables and types available in Java Script Language. There are practical activities proposed to put in movement the concepts learned along the course.|
