@@ -22,3 +22,4 @@ The master branch has the functional version of the projects. They are segregate
 | JavaScriptBasics | JS Syntax: in this folder there are the lessons of the Java Script basic syntax. |
 | javaScriptSyntaxAndOperators | JS Syntax: this lesson proposed some practice focused on the several operators available in Java Script Language. | 
 | javaScriptTypesAndVariables | JS Syntax: this lesson proposed some practice focused on constants, variables and types available in Java Script Language. There are practical activities proposed to put in movement the concepts learned along the course.|
+| javaScriptModules |JS Syntax: here we will learn and practice about modules, their concepts and how use them.|
