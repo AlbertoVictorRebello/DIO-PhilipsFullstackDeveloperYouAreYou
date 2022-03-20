@@ -25,3 +25,4 @@ The master branch has the functional version of the projects. They are segregate
 | javaScriptModules |JS Syntax: here we will learn and practice about modules, their concepts and how use them.|
 | javaScriptFunctions | JS Syntax: In this course functions will be covered in more detail: types of funtions, parameters, loops, the reserved word "this" and arrow functions. Off-course it will be finished with a proposed practice. |
 | javaScriptCollections |JS Syntax: hey, no one lives alone, doesn't it? Collections are a powerful feature that gives you super powers to manage your data. Let's go together to learn about Map, Set and Structure.|
+| javaScriptDebugging | JS Syntax: Mistakes happens, it is not a shame if you correct it and move on. In our code it would not be different. Let's exercise the techinics to find and fix the issues to make our code run smoothly. |
