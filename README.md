@@ -23,3 +23,5 @@ The master branch has the functional version of the projects. They are segregate
 | javaScriptSyntaxAndOperators | JS Syntax: this lesson proposed some practice focused on the several operators available in Java Script Language. | 
 | javaScriptTypesAndVariables | JS Syntax: this lesson proposed some practice focused on constants, variables and types available in Java Script Language. There are practical activities proposed to put in movement the concepts learned along the course.|
 | javaScriptModules |JS Syntax: here we will learn and practice about modules, their concepts and how use them.|
+| javaScriptFunctions | JS Syntax: In this course functions will be covered in more detail: types of funtions, parameters, loops, the reserved word "this" and arrow functions. Off-course it will be finished with a proposed practice. |
+| javaScriptCollections |JS Syntax: hey, no one lives alone, doesn't it? Collections are a powerful feature that gives you super powers to manage your data. Let's go together to learn about Map, Set and Structure.|
