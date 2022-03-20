@@ -26,3 +26,5 @@ The master branch has the functional version of the projects. They are segregate
 | javaScriptFunctions | JS Syntax: In this course functions will be covered in more detail: types of funtions, parameters, loops, the reserved word "this" and arrow functions. Off-course it will be finished with a proposed practice. |
 | javaScriptCollections |JS Syntax: hey, no one lives alone, doesn't it? Collections are a powerful feature that gives you super powers to manage your data. Let's go together to learn about Map, Set and Structure.|
 | javaScriptDebugging | JS Syntax: Mistakes happens, it is not a shame if you correct it and move on. In our code it would not be different. Let's exercise the techinics to find and fix the issues to make our code run smoothly. |
+| javaScriptOOJS | JS Syntax: now it will be less abstract, more touchable (really?). We will talk about the Oriented Object Paradigm applyed to JAva Script. |
+| javaScriptAsynchronous | JS Syntax: all thing have it own pace, Let's learn how to implement this concept in Java Script.|
