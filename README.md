@@ -29,3 +29,4 @@ The master branch has the functional version of the projects. They are segregate
 | javaScriptOOJS | JS Syntax: now it will be less abstract, more touchable (really?). We will talk about the Oriented Object Paradigm applyed to JAva Script. |
 | javaScriptAsynchronous | JS Syntax: all thing have it own pace, Let's learn how to implement this concept in Java Script.|
 | javaScriptIncialChalenges | Dev, we have a problem: now it is time to put in practice the theory. Just have fun and move on!|
+| typeScriptIntroduction | Type Script Introduction: it allways time to learn another new coding language. Ok, it is not exactly a new language however it will help you to control better your code reducing lines of code. Enjoy it!|
