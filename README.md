@@ -28,3 +28,4 @@ The master branch has the functional version of the projects. They are segregate
 | javaScriptDebugging | JS Syntax: Mistakes happens, it is not a shame if you correct it and move on. In our code it would not be different. Let's exercise the techinics to find and fix the issues to make our code run smoothly. |
 | javaScriptOOJS | JS Syntax: now it will be less abstract, more touchable (really?). We will talk about the Oriented Object Paradigm applyed to JAva Script. |
 | javaScriptAsynchronous | JS Syntax: all thing have it own pace, Let's learn how to implement this concept in Java Script.|
+| javaScriptIncialChalenges | Dev, we have a problem: now it is time to put in practice the theory. Just have fun and move on!|
