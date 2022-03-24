@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StarComponent } from './star/star.component';
 import { ReplacePipe } from './pipe/replace.pipe';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { error404Component } from './error-404/error-404.component';
+import { CourseInfoComponent } from './courses/course-info.component';
 
 
 @NgModule({
@@ -17,7 +19,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     CourseListComponent,
     StarComponent,
     ReplacePipe,
-    NavBarComponent
+    NavBarComponent,
+    error404Component,CourseInfoComponent
   ],
   imports: [
     BrowserModule,
@@ -25,10 +28,20 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     RouterModule.forRoot(
       [
         {
+          path: 'courses', component: CourseListComponent
+        },
+        
+        {
+          path: 'courses/info/:id', component: CourseInfoComponent
+        },
+        
+        {
           path: '', redirectTo: 'courses', pathMatch: 'full'
         },
+        
         {
-          path: 'courses', component: CourseListComponent        }
+          path:'**', component: error404Component
+        }
       ]
     ),
     BrowserAnimationsModule
