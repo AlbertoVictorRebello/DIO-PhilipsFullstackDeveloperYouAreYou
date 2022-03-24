@@ -9,14 +9,13 @@ import { CourseModule } from './courses/course.module';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { NavBarComponent } from './nav-bar/nav-bar.component';
+
 import { error404Component } from './error-404/error-404.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
     AppComponent,  
-        
-    NavBarComponent,
     error404Component,
     
   ],
@@ -24,6 +23,7 @@ import { error404Component } from './error-404/error-404.component';
     BrowserModule,    
     HttpClientModule,
     CourseModule,
+    CoreModule,
     RouterModule.forRoot(
       [              
         {
