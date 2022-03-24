@@ -8,16 +8,11 @@ import { AppComponent } from './app.component';
 import { CourseModule } from './courses/course.module';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-
-import { error404Component } from './error-404/error-404.component';
 import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
-    AppComponent,  
-    error404Component,
-    
+    AppComponent 
   ],
   imports: [
     BrowserModule,    
@@ -28,11 +23,7 @@ import { CoreModule } from './core/core.module';
       [              
         {
           path: '', redirectTo: 'courses', pathMatch: 'full'
-        },
-        
-        {
-          path:'**', component: error404Component
-        }
+        }   
       ]
     ),
     BrowserAnimationsModule
