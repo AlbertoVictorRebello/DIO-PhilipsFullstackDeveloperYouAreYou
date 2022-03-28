@@ -33,3 +33,4 @@ The master branch has the functional version of the projects. They are segregate
 | courseModule | Angular Introduction: here we will start to talk about the power of the components' architeture. They are the core concept of Angular Framework. It is a way to reduce the complexity by a better management. It is also a way to reuse code and scale up applications. Much to learn we have. Let's start right now!|
 | angularComponentsArchiteture | Front-End Components: Angular is a powerful framework to develop web applications. We hope that you enjoyed the introduction course. Lt's keep learning more about components.|
 | angularDirectives | Exploring Angular Directives: HTML is powered by the directives. It is awosome to have more options to use directly on the elements of DOM - Document Object Model. |
+| spaAngular | Chalenge time: this course will review the key Angular concepts and propose an application to be build by you. Enjoy it! |
