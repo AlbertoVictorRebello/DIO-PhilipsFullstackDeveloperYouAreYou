@@ -1,0 +1,33 @@
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+
+<div>
+  <spa-students [initialValue]="value"></spa-students>
+
+  <button (click)="toggleVisibility()">{{ studentButtonText }}</button>
+</div>
+<table *ngIf="isVisible">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>E-mail</th>
+    <th>Course</th>
+  </tr>
+  <tr *ngFor="let student of studentsList">
+    <td>{{student.name}}</td>
+    <td>{{student.age}}</td>
+    <td>{{student.email}}</td>
+    <td>{{student.course}}</td>
+  </tr>
+</table>
