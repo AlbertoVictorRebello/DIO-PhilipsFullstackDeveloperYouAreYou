@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { UsersListComponent } from './pages/users/users-list/users-list.component';
 import { UserFormComponent } from './pages/users/user-form/user-form.component';
 import { HttpClientModule} from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { HttpClientModule} from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

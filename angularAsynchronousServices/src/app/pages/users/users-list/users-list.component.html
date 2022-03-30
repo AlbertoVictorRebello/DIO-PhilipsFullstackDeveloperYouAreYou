@@ -13,7 +13,7 @@
                 <th>Last Name</th>
                 <th>Age</th>
                 <th>Job Title</th>  
-                <th colspan="2"></th>              
+                <th colspan="3"></th>              
             </tr>
         </thead>
         <tbody>
@@ -27,7 +27,7 @@
                     <button class="btn btn-primary">Edit</button>                    
                 </td>
                 <td>
-                    <button class="btn btn-danger">Delete</button>
+                    <button class="btn btn-danger" (click)="deleteUser(u.id!)">Delete</button>
                 </td>
             </tr>
 

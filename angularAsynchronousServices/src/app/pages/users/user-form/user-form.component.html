@@ -1,18 +1,18 @@
 <div class="card w-100 my-5">
     <div class="card-body">
         <h1 class="card-title text-center">User Form</h1>
-        <form autocomplete="off">
+        <form autocomplete="off" [formGroup]="userForm">
             <div class="row my-4">                
                 <div class="col-6">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        <input type="text" class="form-control" formControlName="name" id="name" placeholder="Enter your name">
                         <label for="name">Name</label>
                     </div>
                 </div>
             
                 <div class="col-6">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+                        <input type="text" class="form-control" formControlName= "lastName" id="lastName" placeholder="Enter your last name">
                         <label for="lastName">Last Name</label>
                     </div>
                 </div>
@@ -21,13 +21,13 @@
             <div class="row my-4">
                 <div class="col-6">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="age" placeholder="Enter your age">
+                        <input type="text" class="form-control" formControlName="age" id="age" placeholder="Enter your age">
                         <label for="age">Age</label>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="jobTitle" placeholder="Enter your job title">
+                        <input type="text" class="form-control" formControlName="jobTitle" id="jobTitle" placeholder="Enter your job title">
                         <label for="jobTitle">Job Title</label>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
             <div class="row my-4">
                 <div class="form-group col-12 mt-4">
                     <button type="button" class="btn btn-outline-danger float-start">Cancel</button>
-                    <button type="button" class="btn btn-outline-success float-end">Confirm</button>
+                    <button type="button" class="btn btn-outline-success float-end" (click)="createUser()">Confirm</button>
                 </div>
             </div>
         </form>
