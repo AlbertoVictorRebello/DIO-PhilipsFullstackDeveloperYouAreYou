@@ -1,7 +1,7 @@
 <div class="card w-100 my-5">
     <div class="card-body">
         <h1 class="card-title text-center">Users List</h1>
-        <button class="btn btn-success mb-4 float-end">
+        <button class="btn btn-success mb-4 float-end" routerLink="form">
             Add User
         </button>
     </div>
@@ -10,17 +10,19 @@
             <tr>
                 <th>Id</th>
                 <th>Name</th>
+                <th>Last Name</th>
                 <th>Age</th>
                 <th>Job Title</th>  
                 <th colspan="2"></th>              
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>1</td>
-                <td>Alberto</td>
-                <td>49</td>
-                <td>Desenvolvedor</td>
+            <tr *ngFor="let u of users">
+                <td>{{ u.id }}</td>
+                <td>{{ u.name }}</td>
+                <td>{{ u.lastName }}</td>
+                <td>{{ u.age }}</td>
+                <td>{{ u.jobTitle }}</td>
                 <td>
                     <button class="btn btn-primary">Edit</button>                    
                 </td>
