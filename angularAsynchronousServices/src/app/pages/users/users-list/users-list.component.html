@@ -24,7 +24,7 @@
                 <td>{{ u.age }}</td>
                 <td>{{ u.jobTitle }}</td>
                 <td>
-                    <button class="btn btn-primary">Edit</button>                    
+                    <button class="btn btn-primary" [routerLink]="['/form', u.id]">Edit</button>                    
                 </td>
                 <td>
                     <button class="btn btn-danger" (click)="deleteUser(u.id!)">Delete</button>

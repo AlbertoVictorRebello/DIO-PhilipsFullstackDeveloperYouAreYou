@@ -22,6 +22,10 @@ export class UserService {
     return this.httpClient.get<User[]>(this.apiURL); 
   }
 
+  getUserById(id: string): Observable<User[]> {
+    return this.httpClient.get<User[]>(`${ this.apiURL}/id/${ id }`); 
+  }
+
   // getUsersNumber(): void {
     
   //   this.getUsers().subscribe((response) => {
@@ -38,6 +42,12 @@ export class UserService {
   
   deleteUser(id: number): Observable<User> {
     return this.httpClient.delete<User>(`${ this.apiURL }/id/${ id }`)
+
+  }
+
+  updateUser(id: string, user: User): Observable<User> {
+    return this.httpClient.put<User>(`${ this.apiURL}/id/${ id }`, user, this.httpOptions);
+
 
   }
 }
