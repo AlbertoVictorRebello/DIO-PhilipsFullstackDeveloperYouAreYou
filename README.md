@@ -34,3 +34,6 @@ The master branch has the functional version of the projects. They are segregate
 | angularComponentsArchiteture | Front-End Components: Angular is a powerful framework to develop web applications. We hope that you enjoyed the introduction course. Lt's keep learning more about components.|
 | angularDirectives | Exploring Angular Directives: HTML is powered by the directives. It is awosome to have more options to use directly on the elements of DOM - Document Object Model. |
 | angularAsynchronousServices | Wow. So great knowledge we have been acquiring, does'n it? As a juggler, now we will see how to put all together at the same time, each thing at its own pace. Let's see... |
+| angularDataBinding | The power of Angular Data Binding: Did you dream you have a super power? Feel like a hero is awesome. It make us be more confident to overcome the big rocks along the way. Put data binding into yours utility belt and go, go, go... |  
+| javaScriptIntermediateChalenges | Let's practice? this is the way to perfection, belive on me... |
+| ecommerceWithAngular | What about you have your own e-commerce? Great! Let's code it toghether right now! |
