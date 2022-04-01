@@ -37,3 +37,4 @@ The master branch has the functional version of the projects. They are segregate
 | angularDataBinding | The power of Angular Data Binding: Did you dream you have a super power? Feel like a hero is awesome. It make us be more confident to overcome the big rocks along the way. Put data binding into yours utility belt and go, go, go... |  
 | javaScriptIntermediateChalenges | Let's practice? this is the way to perfection, belive on me... |
 | ecommerceWithAngular | What about you have your own e-commerce? Great! Let's code it toghether right now! |
+| spaAngular | Chalenge time: this course will review the key Angular concepts and propose an application to be build by you. Enjoy it! |
